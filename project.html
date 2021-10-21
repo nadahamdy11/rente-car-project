@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel = "stylesheet" href = "CSS/project.css"> 
+       <link rel="stylesheet" href="CSS/sign.css">
+       <link rel="stylesheet" href="CSS/says.css">
+    </head>
+    <body>
+        <nav class = "nav">
+            <div class = "img">
+                <img src ="Images/rentcar.jpeg" width = "175" height = "60 px">
+            </div>
+            <div class = "link">
+                <a href="#" > HOME </a>
+                <a href="#about" > ABOUT </a>
+                <a href="Contact.html" > CONTACT US </a>
+                <a class="sign" onclick="document.getElementById('id0').style.display='block'"> SIGN IN </a>
+            </div>
+        </nav>
+
+
+        <header>
+            <h1>Find best car Here For rent </h1>
+             
+             
+            <button class="read" onclick="document.getElementById('rent').style.display='block'">READ MORE</button>
+
+            <p id="rent">Rent A Car offers you the best possible rates from top international and major local car rental companies across 45,000 rental stations!We at Rent a car.com go the extra mile to give you the best, carefree car rental experience!</p>
+
+        </header>
+        <div class="types">
+           <h1>VARIETY OF CARS</h1>
+            <p>
+                We have great offers for daily, weekly and long term rentals. Find the cheapest prices online
+             </p>
+            <div class="cars">
+                <div>
+                    <img src="Images/car_img1.png" >
+                    <h3>Hundai</h3>
+                </div>
+                <div>
+                    <img src="Images/car_img2.png" >
+                    <h3>Audi</h3>
+                </div>
+                <div>
+                    <img src="Images/car_img3.png" >
+                    <h3>Bmw x5</h3>
+                </div>
+            </div>
+        </div>
+   <div class="car">
+     <div class="row">
+       <div class="column"> 
+
+       <h4>Find A Best Car For Rent</h4>
+       
+       
+         <select class="big" >
+            <option value="0">Choose car model</option>
+            <option value="1">Hundai</option>
+            <option value="2">Audi</option>
+            <option value="3">BMW X5</option>
+         </select>
+
+
+
+         <select class="big">
+            <option value="0">Choose car color</option>
+            <option value="1">red</option>
+            <option value="2">white</option>
+            <option value="3">black</option>
+         </select>
+
+
+         <select class="big">
+            <option value="0">Choose use of car </option>
+            <option value="1">family</option>
+            <option value="2">sport</option>
+            <option value="3">travel</option>
+         </select>
+
+       
+         <select class="big">
+            <option value="0"> average of Price</option>
+            <option value="1">200-300</option>
+            <option value="2">300-600</option>
+            <option value="3">600-700</option>
+         </select>
+
+        <a href="car.html"> <button class="find" >Find Now </button></a>
+
+
+       </div>
+     </div>
+   </div>
+   <div class="why" id="about">
+    <h2> WHY CHOOSE US  </h2>  
+    <p class="p1">
+        YOU CAN CHOOSE US FOR 
+      </p>
+   <span class="num"> 01</span>
+   <p class="p1">
+    We are committed every day in finding the best possible deal for your car rental. 
+               Without Any Hidden Charges. We offer free booking modifications and Rates as low as possible with an average saving per booking of 35%! 
+  </p>
+<span class="num"> 02</span>
+<p class="p1">
+
+    Top Cars - Top Brands - Top Service. We work with top-rated international and leading local car rental companies in 45,000 rental stations. WE  constantly assess our suppliers based on users
+</p>
+<span class="num"> 03</span>
+   <p class="p1">
+    51% Of Our Customers have saved more than 53% on their recent car rental with us.
+    #1 Online Car Rental Booking Site. Our market experience guarantees value for money deals.
+   </p> 
+</div>
+
+   <div class="container">
+        <h1 id="h1">WHAT IS SAYS OUR CUSTOMERS</h1>
+        <div class="image fade">
+            <div class="image2">
+                <img src="images/team2.jpg">
+            </div>
+            <div id="image">
+                <div class="image1">
+                    <h3 id="h3">Due markes</h3>
+                    <span class="rental">Rental</span>
+                    <p>Thank you to renting car staff for taking care of my reservation!
+                    I needed to cancel and they were able to accommodate
+                    my cancelation and rebooking of a new car. Great customer service!
+                    </p>
+
+                    <img src="images/te1.png" >
+
+                </div>
+            </div>
+        </div>
+
+        <div class="image fade">
+            <div class="image2">
+                <img src="images/team8.jpg">
+            </div>
+            <div id="image">
+                <div class="image1">
+                    <h3 id="h3">Mikel Carter</h3>
+                    <span class="rental">Rental</span>
+                    <p>I found the best rate through renting cars.com and unfortunately had to cancel.
+                    I contacted their live chat and promptly canceled my reservation and refunded my insurance costs.
+                    It was a smooth and easy process and I will definitely use them again.
+                    </p>
+
+                    <img src="images/te1.png" >
+
+                </div>
+            </div>
+        </div>
+
+        <div class="image fade">
+            <div class="image2">
+                <img src="images/Attorneys-5.png">
+            </div>
+            <div id="image">
+                <div class="image1">
+                    <h3 id="h3">John Doe</h3>
+                    <span class="rental">Rental</span>
+                    <p>We thank you very much for your wonderful service and wish you best.
+                      Regards
+                    </p>
+
+                    <img src="images/te1.png" >
+
+                </div>
+            </div> 
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+<footer>
+      <a href="https://www.facebook.com/"><img src="Images/facebook.png"></a>
+      <a href="https://www.twitter.com/"><img src="Images/twitter.png"></a>
+      <a href="https://www.instagram.com/"><img src="Images/instagram.png"></a>
+      <a href="https://www.youtube.com/"><img src="Images/youtube.png"></a>
+</footer>
+
+
+ 
+
+
+
+
+
+
+    <!-- Start Sign in -->
+
+    <div id="id0" class="contain">
+        <form>
+          <span onclick="document.getElementById('id0').style.display='none'" style="cursor: pointer ;margin-left: 90%;font-size: 50px; font-weight: bold;">&times;</span>
+          <h1>Sign In </h1>
+          <br>
+          <div class="input-icons">
+            <!--<i class="fa fa-envelope icon"></i>-->
+            <input class="input-field" type="text" placeholder=" enter your Email">
+          </div>
+          
+          <br>
+    
+          <div class="input-icons">
+            <!--<i class="fa fa-key icon"></i>-->
+            <input id="inp-field" class="input-field" type="password" placeholder="**********">
+          </div>
+    
+    
+          <p class="for">forgot password?</p>
+    
+          <input type="checkbox"><span id="remember">remember me</span><br><br>
+    
+          <button class="LOGIN">LOGIN</button>
+    
+          <P class="center">-OR-</P>
+          <P class="center">sign in with</P>
+    
+          <a href="https://www.facebook.com/"><img src="Images/f.png" class="link1" ></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox"><img src="Images/co.png" class="link1" ></a>
+    
+          <p class="account">Don't have an account?<b> sign up</b></p>
+    
+        </form>
+      </div>
+
+    <!-- End Sign in -->
+
+
+
+
+
+
+
+    </body>
+</html>

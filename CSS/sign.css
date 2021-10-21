@@ -1,0 +1,121 @@
+.contain{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.contain form{
+    background-image:linear-gradient(to right  , #3472c2 , #72aef6);
+    text-align: center;
+    margin: 5% auto 15% auto;
+    width: 70%;
+    padding:10px ;
+}
+.contain h1{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.fa-solid fa-headphones-simple{
+	width: 20px;
+}
+.input-field{
+	 width: 80%;
+    height: 70px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    background-image:linear-gradient(to right , #72aef6 , #3472c2);
+    border-color: #5BA2DF;
+    box-shadow: 50px;
+    text-decoration-color: white;
+    outline: 30px;
+    font-family:  'Lora', serif;
+    text-align: center;
+
+
+}
+.contain ::placeholder {  font-family:Chrome, Firefox, Opera;
+  color: #CED9EE;
+  opacity: 1; 
+}
+
+.contain #inp-field{
+    margin-bottom: 0;
+}
+
+
+
+.contain .for{
+	color: white;
+	padding: 0;
+    padding-left: 70%;
+	right: 40%;
+	cursor: pointer;
+
+}
+.contain #remember{
+	color: white;
+}
+.contain button{
+    width: 80%;
+	 text-align: center;
+   /* padding: 20px 250px 20px 250px; */
+   margin-left: 10px;
+   font-size: 25px;
+   color:#6AA8FA;
+   background-color:white ;
+   border-color:white ;
+    box-shadow: 30px;
+    border-radius: 50px;
+    height: 73px;
+
+}
+.contain .center{
+	color: white;
+	font-size: 20px;
+}
+.link1{
+	/* padding: 20px 5px 50px 5px; */
+	/* width: 130px; */
+	height: 60px;
+	border-radius: 20%;
+}
+.contain .account {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+
+.input-icons i {
+            position: absolute;
+
+        }
+          
+        .input-icons {
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+        .icon {
+            padding: 20px 40px 20px 50px;
+            color: white;
+            width: 10px;
+            height: 10px;
+            text-align: center;
+            font-size: 50px;
+}
+
+
+         
+ 
